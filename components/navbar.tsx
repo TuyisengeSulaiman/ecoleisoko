@@ -31,7 +31,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper"
 const ecole: { title: string; href: string; }[] = [
     {
         title: "Mot de bienvenue",
-        href: "/docs",
+        href: "/mot-de-bienvenue",
     },
     {
         title: "Fonctionnement",
@@ -120,8 +120,8 @@ export function Navbar() {
     return (
         <div className="flex-none">
             <div className="relative">
-                <AspectRatio ratio={16 / 4}>
-                    <Image src="/banner.jpg" alt="Image" fill className="object-cover" />
+                <AspectRatio ratio={16 / 6}>
+                    <Image src="/home page.jpg" alt="Image" fill className="object-cover" />
                 </AspectRatio>
             </div>
             <MaxWidthWrapper className="bg-green-700">
