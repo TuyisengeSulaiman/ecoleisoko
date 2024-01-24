@@ -35,20 +35,20 @@ const ecole: { title: string; href: string; }[] = [
     },
     {
         title: "Fonctionnement",
-        href: "/docs/primitives/hover-card",
+        href: "/fonctionnement",
 
     },
     {
         title: "Équipe",
-        href: "/docs/primitives/progress",
+        href: "/equipe",
     },
     {
         title: "Projet éducatif",
-        href: "/docs/primitives/scroll-area",
+        href: "/projet-educatif",
     },
     {
         title: "Plan santé et Bien-être",
-        href: "/docs/primitives/tabs",
+        href: "/plan-sante-et-bien-etre",
 
     },
 ]
