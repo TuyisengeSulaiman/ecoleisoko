@@ -19,6 +19,7 @@ export function ProjeEductive() {
                                 objectFit: "cover",
                             }}
                             width="200"
+                            className="max-w-[200px]"
                         />
                         <div className="flex flex-col gap-5">
                             <h2 className="text-3xl font-bold mb-1">Equipe</h2>
