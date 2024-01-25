@@ -3,7 +3,7 @@ export default function Page() {
         <div>
             <main className='flex flex-col gap-8 w-full md:w-[700px]'>
                 <article className="post-content">
-                    <h1>Plan santé et Bien-être</h1>
+                    <h1 className='text-4xl font-bold mb-4'>Plan santé et Bien-être</h1>
                     <p>«&nbsp;<em>En plus d’être liés à la réussite éducative des élèves, la santé et le bien-être de ces derniers sont </em><br />
                         <em>au cœur de nos préoccupations. Pour ce faire, nous croyons qu’il est essentiel d’agir en </em><br />
                         <em>prévention-promotion de manière globale et universelle. </em></p>

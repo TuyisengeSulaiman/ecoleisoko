@@ -55,66 +55,51 @@ const ecole: { title: string; href: string; }[] = [
 const parents: { title: string; href: string; }[] = [
     {
         title: "Rentrée 2023-2024",
-        href: "/docs/primitives/alert-dialog",
+        href: "inscriptions-et-rentree",
     },
     {
         title: "Calendrier scolaire",
-        href: "/docs/primitives/hover-card",
+        href: "/calendrier-scolaire-2",
 
     },
     {
         title: "Horaire des élèves",
-        href: "/docs/primitives/progress",
+        href: "/horaire-des-eleves",
     },
     {
         title: "Info-parents",
-        href: "/docs/primitives/scroll-area",
+        href: "/info-parents",
     },
     {
         title: "Évaluations et bulletins",
-        href: "/docs/primitives/tabs",
+        href: "/evaluations-et-bulletins",
 
     },
     {
         title: "Le sommeil et l’enfant",
-        href: "/docs/primitives/tabs",
-
-    },
-    {
-        title: "Vers la maternelle",
-        href: "/docs/primitives/tabs",
-
-    },
-    {
-        title: "Vers le secondaire",
-        href: "/docs/primitives/tabs",
+        href: "/le-sommeil-et-l’enfant",
 
     },
     {
         title: "Boite à outils",
-        href: "/docs/primitives/tabs",
+        href: "/boite-à-outils",
 
     },
 ]
 const service: { title: string; href: string; }[] = [
     {
         title: "Guide",
-        href: "/docs/primitives/alert-dialog",
+        href: "/guide",
     },
     {
         title: "Dîner",
-        href: "/docs/primitives/hover-card",
+        href: "/diner",
 
     },
     {
         title: "Traiteur",
-        href: "/docs/primitives/progress",
+        href: "/traiteur",
     },
-    {
-        title: "Journées pédagogiques",
-        href: "/docs/primitives/tabs",
-
-    }
 ]
 export function Navbar() {
     return (
@@ -182,21 +167,8 @@ export function Navbar() {
                                 </ul>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
-                        <NavigationMenuItem className="relative">
-                            <NavigationMenuTrigger>Nouvelles</NavigationMenuTrigger>
-                            <NavigationMenuContent className="">
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                                    <ListItem
-                                        title={"Blog des activites faites par l’ecole"}
-                                        href={"/blog"}
-                                        className={cn(buttonVariants({ variant: 'link' }),)}
-                                    >
-                                    </ListItem>
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <Link href="/" legacyBehavior passHref>
+                            <Link href="/contact" legacyBehavior passHref>
                                 <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
                                     Contact
                                 </div>
