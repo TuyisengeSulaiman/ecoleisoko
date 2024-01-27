@@ -13,6 +13,21 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'École Isoko',
   description: "École D'art",
+  // icons: "localhost:3000/LOGO isoko.jpg"
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/LOGO isoko.jpg",
+        href: "/LOGO isoko.jpg",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/LOGO isoko.jpg",
+        href: "/LOGO isoko.jpg",
+      }
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -31,7 +46,7 @@ export default function RootLayout({
             <Navbar />
             <MaxWidthWrapper className='flex-1 flex gap-4 mt-6'>
               {children}
-              <SideCards />
+              <SideCards/>
             </MaxWidthWrapper>
             {/* <Footer /> */}
         </main>

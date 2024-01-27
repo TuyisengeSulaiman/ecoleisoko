@@ -15,7 +15,7 @@ export default function Page() {
             <h1>Horaire des élèves</h1>
             <div className="flex">
 
-              <p><a href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2021/03/clock.png" >
+              <p><a href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2021/03/clock.png" >
                 <img
                   alt="École"
                   height="200"
@@ -36,7 +36,7 @@ export default function Page() {
             <p><strong><u>Sachez que les élèves doivent être prêt à travailler à 7h 50.</u></strong></p>
             <ul>
               <li>Vous pouvez enregistrer et imprimer l’horaire de l’élève pour le conserver à portée de main en tout temps. Cliquer sur l’image pour ouvrir le PDF qui peut être imprimé.</li>
-              <li><a href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2019/10/Horaire-de-classe.pdf">horaire-de-classe</a></li>
+              <li><a href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2019/10/Horaire-de-classe.pdf">horaire-de-classe</a></li>
             </ul>
             <p>&nbsp;</p>
 

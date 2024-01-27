@@ -25,19 +25,19 @@ export default function Page() {
                         <div className="vc_column-inner"><div className="wpb_wrapper">
                           <div className="wpb_text_column wpb_content_element ">
                             <div className="wpb_wrapper">
-                              <h2><strong>Coordonnées de l’école primaire Saint-Luc<br />
+                              <h2><strong>Coordonnées de l’école primaire Isoko la Source<br />
                               </strong></h2>
                               <p>98, rue Fredmir<br />
                                 Dollard-des-Ormeaux (Qc) H9A&nbsp; 2R3<br />
                                 Téléphone : (514) 855-4212<br />
-                                <a href="mailto:direction.saint-luc@csmb.qc.ca" target="_blank" rel="noopener noreferrer">direction.saint-luc@csmb.qc.ca</a></p>
+                                <a href="mailto:direction.Isoko la Source@csmb.qc.ca" target="_blank" rel="noopener noreferrer">direction.Isoko la Source@csmb.qc.ca</a></p>
                               <p>&nbsp;</p>
                               <p>Les heures d’ouverture du secrétariat de l’école sont de 7h45 à 11h30 et de 12h45 à 15h30. Vous devez utiliser la porte du service de garde en-dehors de ces heures.</p>
                               <p><strong>Signaler une absence</strong></p>
-                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>514)&nbsp;855-4212</strong> <strong>poste 1 </strong>(le répondeur téléphonique sera en fonction tous les jours) ou via <a href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2022/02/Mozaik-portail-parents.pdf"><strong>Mozaik Parents</strong></a>. Vous devez toujours préciser le motif de l’absence.</p>
+                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>514)&nbsp;855-4212</strong> <strong>poste 1 </strong>(le répondeur téléphonique sera en fonction tous les jours) ou via <a href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2022/02/Mozaik-portail-parents.pdf"><strong>Mozaik Parents</strong></a>. Vous devez toujours préciser le motif de l’absence.</p>
                               <p><strong>Service de garde</strong></p>
                               <p>514-855-4212, poste 2</p>
-                              <p><a href="mailto:servicedegarde.saint-luc@csmb.qc.ca">servicedegarde.saint-luc@csmb.qc.ca</a></p>
+                              <p><a href="mailto:servicedegarde.Isoko la Source@csmb.qc.ca">servicedegarde.Isoko la Source@csmb.qc.ca</a></p>
 
                             </div>
                           </div>

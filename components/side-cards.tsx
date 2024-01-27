@@ -15,18 +15,13 @@ function SideCards() {
         {
             title: "Calendrier scolaire 2023-2024",
             image: "/docs/primitives/progress",
-        },
-        {
-            title: "Infoparent",
-            image: "/docs/primitives/tabs",
-
         }
     ]
     return (
-        <div className="hidden md:block flex-grow bg-white overflow-hidden border h-fit border-gray-300">
+        <div className="hidden md:block max-w-[300px] border bg-white overflow-hidden h-fit">
             {cards.map(card => (
-                <div className="bg-white rounded-lg">
-                    <div className="bg-[#4CAF50] px-4 py-2 text-white">
+                <div className="bg-white rounded-lg w-full">
+                    <div className="bg-[#4CAF50] max-w-full px-4 py-2 text-white">
                         <h1 className="text-xl font-bold">{card.title}</h1>
                     </div>
                     <img
@@ -34,10 +29,11 @@ function SideCards() {
                         height="200"
                         src="/placeholder.svg"
                         style={{
-                            aspectRatio: "280/200",
+                            aspectRatio: "280/280",
                             objectFit: "cover",
                         }}
                         width="280"
+                        className='w-full'
                     />
                 </div>
             ))}

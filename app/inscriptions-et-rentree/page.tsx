@@ -32,21 +32,21 @@ export default function Func() {
                 Dîner : 11h19 à 12h34<br />
                 Fin des cours à 15h00<br />
                 Départ des autobus à 15h10</p>
-              <p>Pour consulter la lettre complète : <a className="text-blue-500 underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/08/La-rentree-scolaire-lettre-parents-2023-2024.pdf">Lettre rentrée 2023-2024</a></p>
-              <p>De plus, veuillez prendre note de la <a className="text-blue-500 underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2022/06/Securite-routiere.pdf">note du SPVM</a> par rapport à la sécurité aux abords de l’école.</p>
+              <p>Pour consulter la lettre complète : <a className="text-blue-500 underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/08/La-rentree-scolaire-lettre-parents-2023-2024.pdf">Lettre rentrée 2023-2024</a></p>
+              <p>De plus, veuillez prendre note de la <a className="text-blue-500 underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2022/06/Securite-routiere.pdf">note du SPVM</a> par rapport à la sécurité aux abords de l’école.</p>
               <h2>Fournitures scolaire 2023-2024</h2>
-              <p>***NOUVEAUTÉ*** Cette année, nous offrons aux parents la possibilité de commander leurs fournitures scolaires directement auprès des Éditions Vaudreuil. Pour plus d’informations, veuillez consulter <a className="text-blue-500 underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/2023-Ecole-Saint-Luc-Lettre-Parent-Fr.pdf">la lettre ci-jointe</a>.</p>
+              <p>***NOUVEAUTÉ*** Cette année, nous offrons aux parents la possibilité de commander leurs fournitures scolaires directement auprès des Éditions Vaudreuil. Pour plus d’informations, veuillez consulter <a className="text-blue-500 underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/2023-Ecole-Isoko la Source-Lettre-Parent-Fr.pdf">la lettre ci-jointe</a>.</p>
               <p>Voici les listes de fournitures scolaires pour l’année scolaire 2023-2024</p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-1er-cycle-23-24-fourn.pdf">Fournitures langage 1er cycle</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-2e-cycle-23-24-fourn.pdf">Fournitures langage 2e cycle</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-3e-cycle-23-24-fourn.pdf">Fournitures langage 3e cycle</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/Maternelle-23-24-fourn.pdf">Fournitures maternelle</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/1re-annee-23-24-fourn.pdf">Fournitures 1re année</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/2e-annee-23-24-fourn.pdf">Fournitures 2e année</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/3e-annee-23-24-fourn.pdf">Fournitures 3e année</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/4e-annee-23-24-fourn.pdf">Fournitures 4e année</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/5e-annee-23-24-fourn.pdf">Fournitures 5e année</a></p>
-              <p><a className="text-blue-500 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/06/6e-annee-23-24-fourn.pdf">Fournitures 6e année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-1er-cycle-23-24-fourn.pdf">Fournitures langage 1er cycle</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-2e-cycle-23-24-fourn.pdf">Fournitures langage 2e cycle</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/Langage-3e-cycle-23-24-fourn.pdf">Fournitures langage 3e cycle</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/Maternelle-23-24-fourn.pdf">Fournitures maternelle</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/1re-annee-23-24-fourn.pdf">Fournitures 1re année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/2e-annee-23-24-fourn.pdf">Fournitures 2e année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/3e-annee-23-24-fourn.pdf">Fournitures 3e année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/4e-annee-23-24-fourn.pdf">Fournitures 4e année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/5e-annee-23-24-fourn.pdf">Fournitures 5e année</a></p>
+              <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/06/6e-annee-23-24-fourn.pdf">Fournitures 6e année</a></p>
 
             </div>
           </div>

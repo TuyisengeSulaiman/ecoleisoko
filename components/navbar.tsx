@@ -104,9 +104,9 @@ const service: { title: string; href: string; }[] = [
 export function Navbar() {
     return (
         <div className="flex-none">
-            <div className="relative">
+            <div className="relative bg-">
                 <AspectRatio ratio={16 / 6}>
-                    <Image src="/home page.jpg" alt="Image" fill className="object-cover" />
+                    <Image src="/home page.jpg" alt="Image" fill className="object-contain" />
                 </AspectRatio>
             </div>
             <MaxWidthWrapper className="bg-green-700">

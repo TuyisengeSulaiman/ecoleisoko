@@ -29,7 +29,7 @@ export function ProjeEductive() {
                             <p className="mb-1">
                             Ce document a pour but de dresser le portrait de l’école suite à l’analyse de situation afin de mettre à jour notre connaissance du milieu : élèves, personnel, parents et communauté.
                             </p>
-                            <p className="mb-1">Le <a className="text-blue-700 hover:underline" href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2023/11/219_Saint-Luc_Project_Educatif_2024-27_FINAL_A.pdf">projet éducatif de l’école Saint-Luc</a> vise à offrir à tous les élèves un environnement éducatif stimulant et des conditions propices au développement des compétences qui assureront la réussite éducative sur le plan de l’instruction, de la socialisation et de la qualification.</p>
+                            <p className="mb-1">Le <a className="text-blue-700 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/11/219_Isoko la Source_Project_Educatif_2024-27_FINAL_A.pdf">projet éducatif de l’école Isoko la Source</a> vise à offrir à tous les élèves un environnement éducatif stimulant et des conditions propices au développement des compétences qui assureront la réussite éducative sur le plan de l’instruction, de la socialisation et de la qualification.</p>
                         </div>
                     </div>
                 </section>
