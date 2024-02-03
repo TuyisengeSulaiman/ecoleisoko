@@ -1,9 +1,10 @@
 import { Backpack, CandlestickChart, Cog, Eye, Languages, MousePointerSquare, Network, UserCog } from "lucide-react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
+import clsx from "clsx";
 
 const VisionCards = () => {
     const colors = [
-        "yellow",
+        "orange",
         "green",
         "blue",
         "blue",
@@ -59,7 +60,7 @@ Accompagnement des élèves en difficulté `
                         key={perk.name}
                         className='text-left md:flex md:items-start md:text-left lg:block lg:text-left'>
                         <div className='md:flex-shrink-0 flex justify-start'>
-                            <div className={`h-16 w-16 flex items-center justify-center rounded-full bg-${colors[i]}-100 text-${colors[i]}-900`}>
+                            <div className={clsx("h-16 w-16 flex items-center justify-center rounded-full bg-${colors[i]}-100 text-${colors[i]}-900",`bg-${colors[i]}-100 text-${colors[i]}-900`)}>
                                 {<perk.Icon className='w-1/3 h-1/3' />}
                             </div>
                         </div>
