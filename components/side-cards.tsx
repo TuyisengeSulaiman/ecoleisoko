@@ -19,12 +19,27 @@ function SideCards() {
             title: "Calendrier scolaire 2023-2024",
             image: "/calenda.png",
             link: "/calendrier-scolaire-2"
+        },
+        {
+            title: "Calendrier scolaire 2023-2024",
+            image: "/calenda.png",
+            link: "/calendrier-scolaire-2"
+        },
+        {
+            title: "Calendrier scolaire 2023-2024",
+            image: "/calenda.png",
+            link: "/calendrier-scolaire-2"
+        },
+        {
+            title: "Calendrier scolaire 2023-2024",
+            image: "/calenda.png",
+            link: "/calendrier-scolaire-2"
         }
     ]
     return (
         <div className="hidden md:block max-w-[300px] border bg-white overflow-hidden h-fit">
             {cards.map(card => (
-                <Link href="">
+                <Link href={card.link}>
                 <div className="bg-white rounded-lg w-full">
                     <div className="bg-blue-700 max-w-full px-4 py-2 text-white">
                         <h1 className="text-xl font-bold">{card.title}</h1>
