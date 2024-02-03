@@ -21,7 +21,7 @@ function SideCards() {
         <div className="hidden md:block max-w-[300px] border bg-white overflow-hidden h-fit">
             {cards.map(card => (
                 <div className="bg-white rounded-lg w-full">
-                    <div className="bg-[#4CAF50] max-w-full px-4 py-2 text-white">
+                    <div className="bg-blue-700 max-w-full px-4 py-2 text-white">
                         <h1 className="text-xl font-bold">{card.title}</h1>
                     </div>
                     <img

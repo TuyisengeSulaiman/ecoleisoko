@@ -75,3 +75,13 @@
     @apply bg-background text-foreground;
   }
 }
+.banner{
+  background-image: url("/umugongo1.jpeg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.banner{
+  background-image: url("/umugongo1.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+}

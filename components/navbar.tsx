@@ -88,13 +88,8 @@ const parents: { title: string; href: string; }[] = [
 ]
 const service: { title: string; href: string; }[] = [
     {
-        title: "Guide",
-        href: "/guide",
-    },
-    {
-        title: "Dîner",
-        href: "/diner",
-
+        title: "Bus",
+        href: "/bus",
     },
     {
         title: "Traiteur",
@@ -105,12 +100,15 @@ export function Navbar() {
     return (
         <div className="flex-none">
             <div className="relative bg-">
+            <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute left-0 h-full bject-fit"/>
                 <AspectRatio ratio={16 / 6}>
-                    <Image src="/home page.jpg" alt="Image" fill className="object-contain" />
+                    <Image src="/IMG_4380.jpg" alt="Image" fill className="object-contain" />
                 </AspectRatio>
+                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute right-0 top-0 h-full bject-fit"/>
+
             </div>
-            <MaxWidthWrapper className="bg-green-700">
-                <NavigationMenu className="flex-none bg-green-700 flex justify-center">
+            <MaxWidthWrapper className="bg-blue-700">
+                <NavigationMenu className="flex-none bg-blue-700 flex justify-center">
                     <NavigationMenuList>
                         <NavigationMenuItem>
                             <Link href="/" legacyBehavior passHref>
@@ -177,7 +175,7 @@ export function Navbar() {
                     </NavigationMenuList>
                 </NavigationMenu>
             </MaxWidthWrapper>
-            <MaxWidthWrapper className="w-full bg-orange-100 text-orange-500 p-[0.5px] font-semibold">
+            <MaxWidthWrapper className="w-full bg-blue-100 text-blue-500 p-[0.5px] font-semibold">
                 <div>
                     École ISOKO - La source
                 </div>

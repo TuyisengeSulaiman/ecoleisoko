@@ -39,7 +39,7 @@ export default function RootLayout({
     <html lang='en' className='h-full'>
       <body
         className={cn(
-          'relative h-full font-sans antialiased',
+          'relative h-full font-sans antialiased bg-[#fbfbfe]',
           inter.className
         )}>
         <main className='relative min-h-screen flex flex-col'>
