@@ -108,7 +108,7 @@ export function Navbar() {
 
             </div>
             <MaxWidthWrapper className="bg-blue-700">
-                <NavigationMenu className="flex-none bg-blue-700 flex justify-center">
+                <NavigationMenu className="flex-none bg-blue-700 flex justify-center py-4">
                     <NavigationMenuList>
                         <NavigationMenuItem>
                             <Link href="/" legacyBehavior passHref>

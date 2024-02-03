@@ -1,25 +1,30 @@
 import { Download } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react'
 
 function SideCards() {
-    const cards: { title: string; image: string; }[] = [
+    const cards: { title: string; image: string; link: string }[] = [
         {
             title: "Suivez-nous sur facebook",
-            image: "/docs/primitives/alert-dialog",
+            image: "/team.jpg",
+            link: "https://www.facebook.com/groups/594724986209672/"
         },
         {
             title: "Rentrée 2023-2024",
-            image: "/docs/primitives/hover-card",
+            image: "/sc.png",
+            link: "/inscriptions-et-rentree"
 
         },
         {
             title: "Calendrier scolaire 2023-2024",
-            image: "/docs/primitives/progress",
+            image: "/calenda.png",
+            link: "/calendrier-scolaire-2"
         }
     ]
     return (
         <div className="hidden md:block max-w-[300px] border bg-white overflow-hidden h-fit">
             {cards.map(card => (
+                <Link href="">
                 <div className="bg-white rounded-lg w-full">
                     <div className="bg-blue-700 max-w-full px-4 py-2 text-white">
                         <h1 className="text-xl font-bold">{card.title}</h1>
@@ -27,7 +32,7 @@ function SideCards() {
                     <img
                         alt="École"
                         height="200"
-                        src="/placeholder.svg"
+                        src={card.image}
                         style={{
                             aspectRatio: "280/280",
                             objectFit: "cover",
@@ -36,6 +41,7 @@ function SideCards() {
                         className='w-full'
                     />
                 </div>
+                </Link>
             ))}
         </div>
     )
