@@ -24,7 +24,7 @@ export function MotDeBienvenue() {
             />
             <div className="flex flex-col gap-5">
               <p className="font-semibold">
-                L'école Isoko la Source a été construite en ......
+                L'école Isoko la Source a été construite en 2012
 
       
               </p>

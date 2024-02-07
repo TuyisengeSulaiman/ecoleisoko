@@ -35,14 +35,14 @@ export function Equipe() {
                                 <AccordionContent>
                                     <div>
                                         <div className="wpb_wrapper">
-                                            <p><strong>Directrice</strong> : <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
-                                            <p><strong>Directrice adjointe</strong> :&nbsp; <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
-                                            <p><strong>Secrétaire</strong> : ........<br />
-                                                <strong>Agente de bureau</strong>: ........</p>
-                                            <p><strong>Concierge de jour</strong>: ........<br />
-                                                <strong>Concierge de soir</strong>: ........</p>
-                                            <p><strong>Technicienne du service de garde</strong> : <a className="text-blue-600" href="mailto: lena.beland2@csmb.qc.ca">........</a></p>
-                                            <p><strong>Bibliothécaire</strong>: ........</p>
+                                            <p><strong>Directrice Générale</strong> : <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
+                                            <p><strong>Financier</strong> :&nbsp; <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
+                                            <p><strong></strong> <br />
+                                                <strong></strong></p>
+                                            <p><strong></strong><br />
+                                                <strong></strong></p>
+                                            <p><strong></strong> <a className="text-blue-600" href="mailto: lena.beland2@csmb.qc.ca"></a></p>
+                                            <p><strong></strong></p>
                                         </div>
                                     </div>
                                 </AccordionContent>
@@ -51,36 +51,35 @@ export function Equipe() {
                                 <AccordionTrigger>Équipe d'enseignants</AccordionTrigger>
                                 <AccordionContent><div className="wpb_text_column wpb_content_element ">
                                     <div className="wpb_wrapper">
-                                        <p><strong>Préscolaire</strong></p>
+                                        <p><strong>Maternelle</strong></p>
                                         <p>.....</p>
-                                        <p><strong>Premier cycle</strong></p>
+                                        <p><strong>Primaire</strong></p>
                                         <p>......</p>
-                                        <p><strong>Deuxième cycle</strong></p>
+                                        <p><strong>Secondaire</strong></p>
                                         <p>......</p>
-                                        <p><strong>Troisième cycle</strong></p>
-                                        <p>......</p>
-                                        <p><strong>Spécialistes</strong></p>
-                                        <p>......</p>
+                                        <p><strong></strong></p>
+                                        <p></p>
+                                        <p><strong></strong></p>
+                                        <p></p>
 
                                     </div>
                                 </div></AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-2">
-                                <AccordionTrigger>Équipe de professionnels</AccordionTrigger>
+                                <AccordionTrigger>Partenaires</AccordionTrigger>
                                 <AccordionContent>
-                                    TES: ......<br />
-                                    TES: ......<br />
-                                    TES: ......<br />
-                                    TES: ......<br />
+                                
+                                
+                                    
                                     Psychologue: ......<br/>
-                                    Orthophoniste: ......<br/>
-                                    Psychoéducatrice: ......<br/>
+                                
+                                
                                     Infirmière: ......<br/>
                                     Hygiéniste dentaire: ......<br/>
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-3">
-                                <AccordionTrigger>Personnel du SDG</AccordionTrigger>
+                                <AccordionTrigger>Règlement d'Ordre Intérieur</AccordionTrigger>
                                 <AccordionContent><div className="wpb_wrapper">
                                     <p><strong>Technicienne</strong> : ......</p>
                                     <p><strong>Éducatrices :</strong></p>
