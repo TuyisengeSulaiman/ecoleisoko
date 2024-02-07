@@ -7,7 +7,7 @@ function SideCards() {
         {
             title: "Suivez-nous sur facebook",
             image: "/team.jpg",
-            link: "https://www.facebook.com/groups/594724986209672/"
+            link: "https://fb.me/g/p_r42f9fuhfoeLZcyp/T2C08lm7"
         },
         {
             title: "Rentrée 2023-2024",
