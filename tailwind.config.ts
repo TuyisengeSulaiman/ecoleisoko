@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'hero': "url('/IMG_4380 (1).jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

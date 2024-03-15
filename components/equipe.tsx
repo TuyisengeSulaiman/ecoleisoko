@@ -35,7 +35,7 @@ export function Equipe() {
                                 <AccordionContent>
                                     <div>
                                         <div className="wpb_wrapper">
-                                            <p><strong>Directrice Générale</strong> : <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
+                                            <p><strong>Directrice</strong> : <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
                                             <p><strong>Financier</strong> :&nbsp; <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
                                             <p><strong></strong> <br />
                                                 <strong></strong></p>

@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 import { Navbar } from '@/components/navbar'
 import SideCards from '@/components/side-cards'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import { Toaster } from '@/components/ui/sonner'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -42,13 +43,14 @@ export default function RootLayout({
           'relative h-full font-sans antialiased',
           inter.className
         )}>
-        <main className='relative min-h-screen flex flex-col'>
+        <main className='relative min-h-screen overflow-x-hidden flex flex-col'>
             <Navbar />
             <MaxWidthWrapper className='flex-1 flex gap-4 mt-6'>
               {children}
               <SideCards/>
             </MaxWidthWrapper>
             {/* <Footer /> */}
+            <Toaster position='top-center' />
         </main>
       </body>
     </html>

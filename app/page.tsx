@@ -1,8 +1,8 @@
-import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import Image from "next/image"
-
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import VisionCards from '@/components/vision-cards'
+import Image from "next/image";
+import Video from 'next-video';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import VisionCards from '@/components/vision-cards';
+import { IdeaForm } from "@/components/idea-form";
 
 
 export default function Home() {
@@ -20,12 +20,11 @@ export default function Home() {
       </div>
       <h2 className="text-3xl font-bold text-green-700 tracking-tight">
         Ecole Isoko la Source<br />
-        <span className='text-blue-400'>UPDATE – January 4, 2024</span>
       </h2>
-      <div className="w-full md:w-[700px]">
-        <AspectRatio ratio={16 / 16}>
-          <Image src="/good.jpg" fill alt="Image" className="rounded-md object-cover" />
-        </AspectRatio>
+      <div className='flow-root'>
+        <div className='m-2 w-full rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
+          <Video src="/preview-video.mp4" style={{ borderRadius: 12 }} accentColor="#1D4ED8" muted autoPlay loop />
+        </div>
       </div>
       <VisionCards />
       <div className='flex justify-between flex-wrap items-center gap-[15px] w-full md:w-[700px]'>
@@ -39,6 +38,12 @@ export default function Home() {
             <Image src="/IMG_2590.jpg" alt='school' fill className='rounded-full border-solid border-[5px] border-green-500 object-contain' />
           </AspectRatio>
         </div>
+      </div>
+      <div className="block md:hidden bg-white rounded-lg sm:mx-auto sm:w-[400px] w-full">
+        <div className="bg-blue-700 max-w-full rounded-sm px-4 py-2 text-white">
+          <h1 className="text-xl font-bold">Boîte à idées</h1>
+        </div>
+        <IdeaForm />
       </div>
     </div>
   )

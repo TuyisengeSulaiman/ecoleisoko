@@ -4,6 +4,7 @@
  */
 import { AccordionTrigger, AccordionContent, AccordionItem, Accordion } from "@/components/ui/accordion"
 import Image from "next/image"
+import Video from 'next-video';
 
 export function ProjeEductive() {
     return (
@@ -35,10 +36,8 @@ export function ProjeEductive() {
                     </div>
                     <div className='mx-auto max-w-6xl px-6 lg:px-8'>
                         <div className='mt-16 flow-root sm:mt-24'>
-                            <div className='-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
-                                <video className='rounded-md w-full min-w[400px] h-full bg-white p-2 sm:p-8 md:p-20 shadow-2xl ring-1 ring-gray-900/10' autoPlay controls preload="none">
-                                    <source src="/preview-video.mp4" type="video/mp4" />
-                                </video>
+                            <div className=' rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
+                            <Video src="/preview-video.mp4" style={{ borderRadius: 12 }} accentColor="#1D4ED8" muted autoPlay loop />
                             </div>
                         </div>
                     </div>

@@ -99,11 +99,9 @@ const service: { title: string; href: string; }[] = [
 export function Navbar() {
     return (
         <div className="flex-none">
-            <div className="relative bg-">
+            <div className="relative h-[270px] bg-[url('/IMG_4380.jpg')] hero">
             <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute left-0 h-full bject-fit"/>
-                <AspectRatio ratio={16 / 6}>
-                    <Image src="/IMG_4380.jpg" alt="Image" fill className="object-contain" />
-                </AspectRatio>
+                {/* <Image src="/IMG_4380 (1).jpg" alt="Image" fill className="object-fill filter" /> */}
                 <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute right-0 top-0 h-full bject-fit"/>
 
             </div>
