@@ -8,18 +8,13 @@ import { Button } from "@/components/ui/button"
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
     FormMessage,
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
-import { Resend } from "resend"
-import { Email } from "./ui/email"
 import { useTransition } from "react"
-import { sendIdea } from "@/lib/mail"
-import { send } from "process"
 import { sendId } from "@/actions/sendIdea"
 import { toast } from "sonner"
 

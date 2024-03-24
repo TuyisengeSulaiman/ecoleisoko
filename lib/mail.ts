@@ -1,10 +1,6 @@
 "use server"
-import { render } from "@react-email/render";
-import React from "react";
 import { Resend } from "resend";
-const resend = new Resend("re_a1yZs5zg_K48tjAupmVEXZW4GuMq6JpQQ");
-import {EmailComp} from "@/components/ui/email"
-import { Navbar } from "@/components/navbar";
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export const sendIdea = async (email: string, name: string, idea: string) => {
   await resend.emails.send({
