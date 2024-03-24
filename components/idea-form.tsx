@@ -86,7 +86,7 @@ export function IdeaForm() {
                         </FormItem>
                     )}
                 />
-                <Button type="submit" className='bg-blue-700 w-full text-white hover:bg-blue-700' disabled={isPending}>Submit</Button>
+                <Button type="submit" className='bg-blue-700 w-full text-white hover:bg-blue-700' disabled={isPending}>soumettre</Button>
             </form>
         </Form>
     )
