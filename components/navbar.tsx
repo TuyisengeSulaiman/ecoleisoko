@@ -67,10 +67,6 @@ const parents: { title: string; href: string; }[] = [
         href: "/horaire-des-eleves",
     },
     {
-        title: "Info-parents",
-        href: "/info-parents",
-    },
-    {
         title: "Évaluations et bulletins",
         href: "/evaluations-et-bulletins",
 
