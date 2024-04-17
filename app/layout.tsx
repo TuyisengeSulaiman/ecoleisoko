@@ -44,7 +44,7 @@ export default function RootLayout({
         )}>
         <main className='relative min-h-screen overflow-x-hidden flex flex-col'>
             <Navbar />
-            <MaxWidthWrapper className='flex-1 flex gap-4 mt-6'>
+            <MaxWidthWrapper className='flex-1 flex gap-4 mt-6 mb-6'>
               {children}
               <SideCards/>
             </MaxWidthWrapper>
