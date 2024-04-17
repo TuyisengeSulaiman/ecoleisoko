@@ -13,8 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'École Isoko',
-  description: "École D'art",
-  // icons: "localhost:3000/LOGO isoko.jpg"
+  description: "Participe À Une ÉCOLE Particulière !",
   icons: {
     icon: [
       {
