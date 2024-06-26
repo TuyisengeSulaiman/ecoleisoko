@@ -166,6 +166,13 @@ export function Navbar() {
                                 </div>
                             </Link>
                         </NavigationMenuItem>
+                        <NavigationMenuItem>
+                            <Link href="/list" legacyBehavior passHref>
+                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                    List
+                                </div>
+                            </Link>
+                        </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
             </MaxWidthWrapper>
