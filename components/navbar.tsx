@@ -96,83 +96,85 @@ export function Navbar() {
     return (
         <div className="flex-none">
             <div className="relative h-[270px] bg-[url('/IMG_4380.jpg')] hero">
-            <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute left-0 h-full bject-fit"/>
+                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute left-0 h-full bject-fit" />
                 {/* <Image src="/IMG_4380 (1).jpg" alt="Image" fill className="object-fill filter" /> */}
-                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute right-0 top-0 h-full bject-fit"/>
+                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute right-0 top-0 h-full bject-fit" />
 
             </div>
             <MaxWidthWrapper className="bg-blue-700">
                 <NavigationMenu className="flex-none bg-blue-700 flex justify-center py-4">
                     <NavigationMenuList>
-                        <NavigationMenuItem>
-                            <Link href="/" legacyBehavior passHref>
-                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                    Accueil
-                                </div>
-                            </Link>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>École</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {ecole.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        />
-                                        
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>Parents</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {parents.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        />
-                                        
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>Service</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {service.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        />
-                                        
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <Link href="/contact" legacyBehavior passHref>
-                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                    Contact
-                                </div>
-                            </Link>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <Link href="/Liste-des-élève-gagnants" legacyBehavior passHref>
-                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                Liste des élève gagnants
-                                </div>
-                            </Link>
-                        </NavigationMenuItem>
+                        <nav>
+                            <NavigationMenuItem>
+                                <Link href="/" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        Accueil
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>École</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {ecole.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>Parents</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {parents.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>Service</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {service.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/contact" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        Contact
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/Liste-des-élève-gagnants" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        Liste des élève gagnants
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                        </nav>
                     </NavigationMenuList>
                 </NavigationMenu>
             </MaxWidthWrapper>
