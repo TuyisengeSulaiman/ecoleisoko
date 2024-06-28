@@ -102,9 +102,9 @@ export function Navbar() {
 
             </div>
             <MaxWidthWrapper className="bg-blue-700">
-                <NavigationMenu className="flex-none bg-blue-700 flex justify-center py-4">
-                    <NavigationMenuList>
-                        <nav>
+                <nav>
+                    <NavigationMenu className="flex-none bg-blue-700 flex justify-center py-4">
+                        <NavigationMenuList>
                             <NavigationMenuItem>
                                 <Link href="/" legacyBehavior passHref>
                                     <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
@@ -174,9 +174,10 @@ export function Navbar() {
                                     </div>
                                 </Link>
                             </NavigationMenuItem>
-                        </nav>
-                    </NavigationMenuList>
-                </NavigationMenu>
+                        </NavigationMenuList>
+                    </NavigationMenu>
+                </nav>
+
             </MaxWidthWrapper>
             <MaxWidthWrapper className="w-full bg-blue-100 text-blue-500 p-[0.5px] font-semibold">
                 <div>
