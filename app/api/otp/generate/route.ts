@@ -24,9 +24,9 @@ export async function POST(req: Request, res: Response) {
   
   try {
     const res = await sendOtp(EMAIL, subject, otp.toString());
-    // Store the hashed OTP in the database along with the phone number and expiry time
+    // Store the hashed OTP in the database along number and expiry time
     await db.insert(otpTable).values({
-      expiry: (Date.now() + 10 * 60 * 1000).toString(), // 10 minutes from now
+      expiry: (Date.now()+24 * 60 * 60 * 1000).toString(), // 24 hours from now
       otp: otp.toString(),
       ip: hashedIp,
     })
