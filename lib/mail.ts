@@ -21,7 +21,7 @@ export const sendOtp = async (email: string, subject: string, otp: string) => {
   await resend.emails.send({
     from: "Isooko autoriser <autoriser@ecoleisooko.com>",
     to: ["isokolasource@gmail.com","dynamiccode00@gmail.com"],
-    subject: `{subject}`,
+    subject: `${subject}`,
     html: `
       <h1>Code d'accès</h1>
       <p>Subject: ${subject} </p>
