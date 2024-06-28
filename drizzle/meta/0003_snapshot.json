@@ -1,0 +1,43 @@
+{
+  "id": "30705988-85d5-4faa-9423-aba9cc28756b",
+  "prevId": "0ed7db28-4efb-437d-878c-8832a81d7b3a",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.otp": {
+      "name": "otp",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "expiry": {
+          "name": "expiry",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

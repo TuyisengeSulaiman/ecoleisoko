@@ -121,8 +121,8 @@ export function Navbar() {
                                             title={component.title}
                                             href={component.href}
                                             className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
+                                        />
+                                        
                                     ))}
                                 </ul>
                             </NavigationMenuContent>
@@ -137,8 +137,8 @@ export function Navbar() {
                                             title={component.title}
                                             href={component.href}
                                             className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
+                                        />
+                                        
                                     ))}
                                 </ul>
                             </NavigationMenuContent>
@@ -153,8 +153,8 @@ export function Navbar() {
                                             title={component.title}
                                             href={component.href}
                                             className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
+                                        />
+                                        
                                     ))}
                                 </ul>
                             </NavigationMenuContent>
@@ -167,9 +167,9 @@ export function Navbar() {
                             </Link>
                         </NavigationMenuItem>
                         <NavigationMenuItem>
-                            <Link href="/list" legacyBehavior passHref>
+                            <Link href="/Liste-des-élève-gagnants" legacyBehavior passHref>
                                 <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                    List
+                                Liste des élève gagnants
                                 </div>
                             </Link>
                         </NavigationMenuItem>

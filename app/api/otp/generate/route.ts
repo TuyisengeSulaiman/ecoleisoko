@@ -3,42 +3,39 @@ import crypto from "crypto";
 import bcrypt from "bcryptjs";
 import { MongoClient } from "mongodb";
 import { sendOtp } from "@/lib/mail";
+import { NextResponse } from "next/server";
+import { db } from "@/db/drizzle";
+import { otpTable } from "@/db/schema";
 
 const EMAIL = "dynamiccode00@gmail.com";
 
 export async function POST(req: Request, res: Response) {
   // Generate a six digit number using the crypto module
   const otp = crypto.randomInt(100000, 999999);
-  const body = await req.json();
-  console.log(body);
+  const {subject} = await req.json();
+  console.log(subject);
+
+  const ip = req.headers.get("x-forwarded-for");
+
+  const hashedIp = await bcrypt.hash(ip!, 10);
 
   // Hash the OTP
   const hashedOtp = await bcrypt.hash(otp.toString(), 10);
-
-  // Initialize the Twilio client
-
+  
   try {
-    // Send the OTP via SMS
-    // await client.messages.create({
-    //   body: `Your OTP is: ${otp}`,
-    //   from: process.env.TWILIO_PHONE_NUMBER, // your Twilio number
-    //   to: req.body.phone, // your user's phone number
-    // })
-    await sendOtp(EMAIL, otp.toString());
-    console.log(otp)
+    const res = await sendOtp(EMAIL, subject, otp.toString());
     // Store the hashed OTP in the database along with the phone number and expiry time
-    // const mongoClient = new MongoClient(process.env.MONGODB_URI!);
-    // await mongoClient.connect();
-    // const otps = mongoClient.db().collection("otps");
-    // await otps.insertOne({
-    //   email: EMAIL,
-    //   otp: hashedOtp,
-    //   expiry: Date.now() + 10 * 60 * 1000, // OTP expires after 10 minutes
-    // });
-    // await mongoClient.close();
+    await db.insert(otpTable).values({
+      expiry: (Date.now() + 10 * 60 * 1000).toString(), // 10 minutes from now
+      otp: otp.toString(),
+      ip: hashedIp,
+    })
 
     // Respond with a success status
+    return  new NextResponse("OTP sent", { status: 200 })
+    
   } catch (err) {
     console.error(err);
+    return  new NextResponse("Falid to Send OTP", { status: 400 })
   }
 }
