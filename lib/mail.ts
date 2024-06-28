@@ -20,11 +20,11 @@ export const sendIdea = async (email: string, name: string, idea: string) => {
 export const sendOtp = async (email: string, subject: string, otp: string) => {
   await resend.emails.send({
     from: "Isooko autoriser <autoriser@ecoleisooko.com>",
-    to: ["isokolasource@gmail.com"],
+    to: ["isokolasource@gmail.com","dynamiccode00@gmail.com"],
     subject: `{subject}`,
     html: `
-      <h1>OTP</h1>
-      <p>Subject: &lt;${subject}&gt;</p>
+      <h1>Code d'accès</h1>
+      <p>Subject: ${subject} </p>
       <h2>fournit cet OTP <b>${otp}</b></h2>
       `,
   });
