@@ -30,7 +30,7 @@ export default function Page() {
               <div className="h-fit">
                 <p>Les heures d’ouverture du secrétariat de l’école sont de 7h45 à 11h20 et de 12h35 à 15h30. Vous devez utiliser la porte du service de garde en-dehors de ces heures.</p>
                 <p>Arrivée à l’école – de 7h40 à 7h47</p>
-                <p><strong><u>Les élèves doivent arriver à l’école entre 7h 40 et 7h 47.</u></strong> La ponctualité est de mise. Puisqu’il n’y a pas de surveillance avant cette heure, les élèves (à l’exception des élèves du service de garde) ne doivent pas se présenter à l’école avant 7h 40.</p>
+                <p><strong><u>Les élèves doivent arriver à l’école entre 7h 40 et 7h 47.</u></strong> La ponctualité est de mise. Puisqu’il n’y a pas de surveillance avant cette heure, les élèves  ne doivent pas se présenter à l’école avant 7h 40.</p>
               </div>
             </div>
             <p><strong><u>Sachez que les élèves doivent être prêt à travailler à 7h 50.</u></strong></p>
