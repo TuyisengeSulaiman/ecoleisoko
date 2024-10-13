@@ -30,9 +30,8 @@ export function MotDeBienvenue() {
               </p>
               <p>Elle est située à Rubavu, dans un secteur résidentiel.</p>
               <p>
-                L'école Isoko la Source se trouve dans un environnement splendide, propice à l'activité physique puisque la cour
-                d'école, de grande dimension, est entourée d'un terrain de soccer, ainsi
-                que de quelques terrains de Volley Beach qui sont disponibles. C'est donc dans ce contexte que
+                L'école Isoko la Source se trouve dans un environnement splendide, propice à l'activité physique sur un terrain de jeu intérieure et un grand terrain de jeu à l'extérieure permettant aux élèves de developer leur capacités physiques au grand air.L'école a été bâti dans un milieu calme, reposant et favorable à l'apprentissage. Le site a été minitieusement choisi pour tout ces atouts.
+                . C'est donc dans ce contexte que
                 les élèves sont appelés à vivre des expériences diverses sur le plan sportif.
               </p>
             </div>
@@ -54,7 +53,7 @@ export function MotDeBienvenue() {
             nous et permet d'assurer un milieu de vie animé dans lequel il fait bon évoluer.
           </p>
           <br /><br /><br />
-          <p className="text-center">Merçi!</p>
+          <p className="text-center">Merci!</p>
         </div>
       </main>
     </div>
