@@ -24,7 +24,7 @@ export function Equipe() {
                         <div className="flex flex-col gap-5">
                             <h2 className="text-3xl font-bold mb-4">Equipe</h2>
                             <p className="mb-4">
-                                L’école primaire Ecole Isoko la Source compte sur une équipe école passionnée et à l’écoute des besoins des élèves. Tous ont leur métier à cœur et aident vos enfants à cheminer vers les prochaines étapes de leur développement.
+                                L’école primaire  Isoko la Source compte sur une équipe école passionnée et à l’écoute des besoins des élèves. Tous ont leur métier à cœur et aident vos enfants à cheminer vers les prochaines étapes de leur développement.
                             </p>
                         </div>
                     </div>
