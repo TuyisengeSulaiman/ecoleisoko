@@ -36,10 +36,10 @@ export default function Page() {
                               <p>&nbsp;</p>
                               <p>Les heures d’ouverture du secrétariat de l’école sont de 7h45 à 11h30 et de 12h45 à 15h30. Vous devez utiliser la porte du service de garde en-dehors de ces heures.</p>
                               <p><strong>Signaler une absence</strong></p>
-                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>+250)&nbsp;783 552 105</strong> <strong>poste 1 </strong>(le répondeur téléphonique sera en fonction tous les jours)</p>
+                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>+250)&nbsp;783 552 105</strong> <strong>poste 1 </strong></p>
                               <p><strong>Service de garde</strong></p>
                               <p><strong>+250 788 475 248, </strong><strong>poste 2</strong></p>
-                              <p><a href="mailto:isokolaSource@gmail.com">isokolaSource@gmail.com</a></p>
+                              <p><a href="mailto:isokolasource@gmail.com">isokolaSource@gmail.com</a></p>
 
                             </div>
                           </div>
