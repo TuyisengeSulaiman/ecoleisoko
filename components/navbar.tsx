@@ -65,7 +65,7 @@ const parents: { title: string; href: string; }[] = [
     },
     {
         title: "Réglement d'Ordre Intérieur",
-        href: "/réglement-d'ordre-intérieur",
+        href: "/reglement-d’ordre-interieur",
     },
     {
         title: "Liste de matériels",
@@ -158,7 +158,7 @@ export function Navbar() {
                                 </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Link href="/lauréats-de-l'examen-respibel" legacyBehavior passHref>
+                                <Link href="/laureats-de-l’examen-respibel" legacyBehavior passHref>
                                     <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
                                         lauréats de l'examen RESPIBEL
                                     </div>
