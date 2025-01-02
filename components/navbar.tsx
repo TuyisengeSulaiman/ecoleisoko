@@ -54,32 +54,22 @@ const ecole: { title: string; href: string; }[] = [
 ]
 const parents: { title: string; href: string; }[] = [
     {
-        title: "Rentrée 2023-2024",
-        href: "inscriptions-et-rentree",
-    },
-    {
         title: "Calendrier scolaire",
         href: "/calendrier-scolaire-2",
 
     },
     {
-        title: "Horaire des élèves",
-        href: "/horaire-des-eleves",
-    },
-    {
-        title: "Évaluations et bulletins",
-        href: "/evaluations-et-bulletins",
+        title: "Fiche d'Inscription",
+        href: "/fiche-inscription",
 
     },
     {
-        title: "Le sommeil et l’enfant",
-        href: "/le-sommeil-et-l’enfant",
-
+        title: "Réglement d'Ordre Intérieur",
+        href: "/réglement-d'ordre-intérieur",
     },
     {
-        title: "Boite à outils",
-        href: "/boite-à-outils",
-
+        title: "Liste de matériels",
+        href: "/c",
     },
 ]
 const service: { title: string; href: string; }[] = [
@@ -168,9 +158,9 @@ export function Navbar() {
                                 </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Link href="/Liste-des-élève-gagnants" legacyBehavior passHref>
+                                <Link href="/lauréats-de-l'examen-respibel" legacyBehavior passHref>
                                     <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                        Liste des élève gagnants
+                                        lauréats de l'examen RESPIBEL
                                     </div>
                                 </Link>
                             </NavigationMenuItem>

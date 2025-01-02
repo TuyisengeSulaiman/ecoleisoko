@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { IdeaForm } from './idea-form';
+import { cn } from '@/lib/utils';
 
 
 function SideCards() {
 
-    const cards: { title: string; image: string; link: string }[] = [
+    const cards: { title: string; image?: string; link: string }[] = [
         {
             title: "Suivez-nous sur facebook",
-            image: "/team.jpg",
             link: "https://fb.me/g/p_r42f9fuhfoeLZcyp/T2C08lm7"
         },
         {
@@ -27,20 +27,22 @@ function SideCards() {
             {cards.map(card => (
                 <Link href={card.link} key={card.link}>
                     <div className="bg-white rounded-lg w-full">
-                        <div className="bg-blue-700 max-w-full px-4 py-2 text-white">
+                        <div className={cn("bg-blue-700 max-w-full px-4 py-2 text-white",!card.image ? "border-b-2 border-white" : "" )}>
                             <h1 className="text-xl font-bold">{card.title}</h1>
                         </div>
-                        <img
-                            alt="École"
-                            height="200"
-                            src={card.image}
-                            style={{
-                                aspectRatio: "280/280",
-                                objectFit: "cover",
-                            }}
-                            width="280"
-                            className='w-full'
-                        />
+                        {card.image && (
+                            <img
+                                alt="École"
+                                height="200"
+                                src={card.image}
+                                style={{
+                                    aspectRatio: "280/280",
+                                    objectFit: "cover",
+                                }}
+                                width="280"
+                                className='w-full'
+                            />
+                        )}
                     </div>
                 </Link>
             ))}

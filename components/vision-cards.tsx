@@ -46,7 +46,7 @@ const VisionCards = () => {
             perkStyle: "bg-yellow-100 text-yellow-900",
             textStyle: "text-yellow-700",
             Icon: Backpack,
-            description: "Étant donné la petite taille de l’école, les classes sont peu nombreuses et il y règne un esprit familial favorable à un enseignement individualisé. Les contacts très personnalisés entre les professeurs et les élèves permettent d’identifier les éventuelles faiblesses et d’y remédier de manière positive ainsi que d’encourager les points forts de chacun. Les méthodes utilisées sont basées sur les méthodes Montessori en maternelle et les méthodes de Céline Alvarez en primaire."
+            description: "Étant donné les classes sont peu nombreuses et il y règne un esprit familial favorable à un enseignement individualisé. Les contacts très personnalisés entre les professeurs et les élèves permettent d’identifier les éventuelles faiblesses et d’y remédier de manière positive ainsi que d’encourager les points forts de chacun. Les méthodes utilisées sont basées sur les méthodes Montessori en maternelle et les méthodes de Céline Alvarez en primaire."
         },
         {
             name: "Nos Valeurs",

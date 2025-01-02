@@ -36,11 +36,6 @@ export function MotDeBienvenue() {
               </p>
             </div>
           </div>
-          <p className="mb-4 mt-4">
-            L'école Isoko la Source dessert une clientèle provenant majoritairement d'un milieu socio-économique favorisé.
-            L'école accueille une clientèle fortement multithématique, où 78% des familles n'ont pas le français comme
-            langue maternelle.
-          </p>
           <p className="mb-4">
             L'équipe-école, qui travaille à la réussite des élèves, est engagée, rigoureuse et soucieuse d'un
             environnement propice à leur épanouissement et d'un enseignement de qualité. Le développement des
