@@ -13,11 +13,7 @@ export default function Page() {
     <div className='flex flex-col items-center gap-8'>
       <div className="bg-white">
         <main className='flex flex-col gap-8 w-full md:w-[700px]'>
-          <Link href="/Fiche d'inscription RENTREE 2023-2024.pdf" className={buttonVariants({
-            variant: "default",
-            className: "bg-blue-500 text-white hover:bg-blue-600"
-
-          })}>
+          <Link href="/Fiche d'inscription RENTREE 2023-2024.pdf" className={buttonVariants({})}>
             Télécharger fiche d'inscription
           </Link>
         </main>

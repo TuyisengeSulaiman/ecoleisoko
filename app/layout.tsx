@@ -50,7 +50,7 @@ export default function RootLayout({
             </MaxWidthWrapper>
             <footer key="1" className="py-6 text-sm border-t border-gray-200">
       <div className="container flex flex-col items-center gap-4">
-        <p>© École ISOKO - La source, 2024</p>
+        <p>© École ISOKO - La source, {new Date().getFullYear()}</p>
       </div>
     </footer>
             <Toaster position='top-center' />
