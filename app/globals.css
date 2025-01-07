@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
- 
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -10,68 +15,100 @@
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
- 
+
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
- 
+
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 9%;
- 
+
     --secondary: 0 0% 96.1%;
     --secondary-foreground: 0 0% 9%;
- 
+
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
- 
+
     --accent: 0 0% 96.1%;
     --accent-foreground: 0 0% 9%;
- 
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
- 
+    --border:  0 0% 98%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
- 
+
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
- 
+
     --popover: 0 0% 3.9%;
     --popover-foreground: 0 0% 98%;
- 
+
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 9%;
- 
+
     --secondary: 0 0% 14.9%;
     --secondary-foreground: 0 0% 98%;
- 
+
     --muted: 0 0% 14.9%;
     --muted-foreground: 0 0% 63.9%;
- 
+
     --accent: 0 0% 14.9%;
     --accent-foreground: 0 0% 98%;
- 
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
- 
+
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.banner {
+  background-image: url("/umugongo1.jpeg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.banner {
+  background-image: url("/umugongo1.jpeg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.cool {
+  position: relative;
+}
+
+.cool::before {
+  content: "";
+  background-color: rgb(0, 128, 0, 0.6);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 182px;
+  opacity: 0.12;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -25;
 }

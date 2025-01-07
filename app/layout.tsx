@@ -7,12 +7,27 @@ import { cn } from '@/lib/utils'
 import { Navbar } from '@/components/navbar'
 import SideCards from '@/components/side-cards'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import { Toaster } from '@/components/ui/sonner'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'École Isoko',
-  description: "École D'art",
+  description: "Participe À Une ÉCOLE Particulière !",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/LOGO isoko.jpg",
+        href: "/LOGO isoko.jpg",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/LOGO isoko.jpg",
+        href: "/LOGO isoko.jpg",
+      }
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -27,13 +42,18 @@ export default function RootLayout({
           'relative h-full font-sans antialiased',
           inter.className
         )}>
-        <main className='relative min-h-screen flex flex-col'>
+        <main className='relative min-h-screen overflow-x-hidden flex flex-col'>
             <Navbar />
-            <MaxWidthWrapper className='flex-1 flex gap-4 mt-6'>
+            <MaxWidthWrapper className='flex-1 flex gap-4 mt-6 mb-6'>
               {children}
-              <SideCards />
+              <SideCards/>
             </MaxWidthWrapper>
-            {/* <Footer /> */}
+            <footer key="1" className="py-6 text-sm border-t border-gray-200">
+      <div className="container flex flex-col items-center gap-4">
+        <p>© École ISOKO - La source, {new Date().getFullYear()}</p>
+      </div>
+    </footer>
+            <Toaster position='top-center' />
         </main>
       </body>
     </html>

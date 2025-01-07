@@ -54,47 +54,28 @@ const ecole: { title: string; href: string; }[] = [
 ]
 const parents: { title: string; href: string; }[] = [
     {
-        title: "Rentrée 2023-2024",
-        href: "inscriptions-et-rentree",
-    },
-    {
         title: "Calendrier scolaire",
         href: "/calendrier-scolaire-2",
 
     },
     {
-        title: "Horaire des élèves",
-        href: "/horaire-des-eleves",
-    },
-    {
-        title: "Info-parents",
-        href: "/info-parents",
-    },
-    {
-        title: "Évaluations et bulletins",
-        href: "/evaluations-et-bulletins",
+        title: "Fiche d'Inscription",
+        href: "/fiche-inscription",
 
     },
     {
-        title: "Le sommeil et l’enfant",
-        href: "/le-sommeil-et-l’enfant",
-
+        title: "Réglement d'Ordre Intérieur",
+        href: "/roi",
     },
     {
-        title: "Boite à outils",
-        href: "/boite-à-outils",
-
+        title: "Liste de matériels",
+        href: "/liste-de-materiels",
     },
 ]
 const service: { title: string; href: string; }[] = [
     {
-        title: "Guide",
-        href: "/guide",
-    },
-    {
-        title: "Dîner",
-        href: "/diner",
-
+        title: "Bus",
+        href: "/bus",
     },
     {
         title: "Traiteur",
@@ -104,80 +85,91 @@ const service: { title: string; href: string; }[] = [
 export function Navbar() {
     return (
         <div className="flex-none">
-            <div className="relative">
-                <AspectRatio ratio={16 / 6}>
-                    <Image src="/home page.jpg" alt="Image" fill className="object-cover" />
-                </AspectRatio>
+            <div className="relative h-[270px] bg-[url('/IMG_4380.jpg')] hero">
+                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute left-0 h-full bject-fit" />
+                {/* <Image src="/IMG_4380 (1).jpg" alt="Image" fill className="object-fill filter" /> */}
+                <Image src={"/umugongo1.jpeg"} width={100} alt="" height={100} className="absolute right-0 top-0 h-full bject-fit" />
+
             </div>
-            <MaxWidthWrapper className="bg-green-700">
-                <NavigationMenu className="flex-none bg-green-700 flex justify-center">
-                    <NavigationMenuList>
-                        <NavigationMenuItem>
-                            <Link href="/" legacyBehavior passHref>
-                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                    Accueil
-                                </div>
-                            </Link>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>École</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {ecole.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>Parents</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {parents.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>Service</NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                    {service.map((component) => (
-                                        <ListItem
-                                            key={component.title}
-                                            title={component.title}
-                                            href={component.href}
-                                            className={cn(buttonVariants({ variant: 'link' }),)}
-                                        >
-                                        </ListItem>
-                                    ))}
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
-                        <NavigationMenuItem>
-                            <Link href="/contact" legacyBehavior passHref>
-                                <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
-                                    Contact
-                                </div>
-                            </Link>
-                        </NavigationMenuItem>
-                    </NavigationMenuList>
-                </NavigationMenu>
+            <MaxWidthWrapper className="bg-blue-700">
+                <nav>
+                    <NavigationMenu className="flex-none bg-blue-700 flex justify-center py-4">
+                        <NavigationMenuList>
+                            <NavigationMenuItem>
+                                <Link href="/" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        Accueil
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>École</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {ecole.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>Parents</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {parents.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger>Service</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {service.map((component) => (
+                                            <ListItem
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                                className={cn(buttonVariants({ variant: 'link' }),)}
+                                            />
+
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/contact" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        Contact
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="/laureats-de-l-examen-respibel" legacyBehavior passHref>
+                                    <div className={cn(buttonVariants({ variant: 'link' }), 'bg-none cursor-pointer')}>
+                                        lauréats de l'examen RESPIBEL
+                                    </div>
+                                </Link>
+                            </NavigationMenuItem>
+                        </NavigationMenuList>
+                    </NavigationMenu>
+                </nav>
+
             </MaxWidthWrapper>
-            <MaxWidthWrapper className="w-full bg-orange-100 text-orange-500 p-[0.5px] font-semibold">
+            <MaxWidthWrapper className="w-full bg-blue-100 text-blue-500 p-[0.5px] font-semibold">
                 <div>
                     École ISOKO - La source
                 </div>

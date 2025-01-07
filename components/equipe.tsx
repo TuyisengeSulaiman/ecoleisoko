@@ -24,7 +24,7 @@ export function Equipe() {
                         <div className="flex flex-col gap-5">
                             <h2 className="text-3xl font-bold mb-4">Equipe</h2>
                             <p className="mb-4">
-                                L’école primaire Saint-Luc compte sur une équipe école passionnée et à l’écoute des besoins des élèves. Tous ont leur métier à cœur et aident vos enfants à cheminer vers les prochaines étapes de leur développement.
+                                L’école primaire  Isoko la Source compte sur une équipe école passionnée et à l’écoute des besoins des élèves. Tous ont leur métier à cœur et aident vos enfants à cheminer vers les prochaines étapes de leur développement.
                             </p>
                         </div>
                     </div>
@@ -35,14 +35,14 @@ export function Equipe() {
                                 <AccordionContent>
                                     <div>
                                         <div className="wpb_wrapper">
-                                            <p><strong>Directrice</strong> : <a className="text-blue-600" href="mailto: direction.saint-luc@csmb.qc.ca">Catherine Touchette</a></p>
-                                            <p><strong>Directrice adjointe</strong> :&nbsp; <a className="text-blue-600" href="mailto: direction.saint-luc@csmb.qc.ca">Rania Altiné</a></p>
-                                            <p><strong>Secrétaire</strong> : Nanan Ndri Rose Jeanne Yao<br />
-                                                <strong>Agente de bureau</strong>: Hélène Lanteigne</p>
-                                            <p><strong>Concierge de jour</strong>: Martin Mailhot<br />
-                                                <strong>Concierge de soir</strong>: Frédéric Gagnon</p>
-                                            <p><strong>Technicienne du service de garde</strong> : <a className="text-blue-600" href="mailto: lena.beland2@csmb.qc.ca">Léna Béland</a></p>
-                                            <p><strong>Bibliothécaire</strong>: Carole Roy</p>
+                                            <p><strong>Directrice</strong> : <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
+                                            <p><strong>Financier</strong> :&nbsp; <a className="text-blue-600" href="mailto: direction.ecole Isoko la Source@csmb.qc.ca">........</a></p>
+                                            <p><strong></strong> <br />
+                                                <strong></strong></p>
+                                            <p><strong></strong><br />
+                                                <strong></strong></p>
+                                            <p><strong></strong> <a className="text-blue-600" href="mailto: lena.beland2@csmb.qc.ca"></a></p>
+                                            <p><strong></strong></p>
                                         </div>
                                     </div>
                                 </AccordionContent>
@@ -51,85 +51,39 @@ export function Equipe() {
                                 <AccordionTrigger>Équipe d'enseignants</AccordionTrigger>
                                 <AccordionContent><div className="wpb_text_column wpb_content_element ">
                                     <div className="wpb_wrapper">
-                                        <p><strong>Préscolaire</strong></p>
-                                        <p>901: Isabel Savard<br />
-                                            010: Amélie Lévesque</p>
-                                        <p><strong>Premier cycle</strong></p>
-                                        <p>101: Michèle Delisle<br />
-                                            102: Théodora Ntiranyibagira<br />
-                                            103: Sally Zaki<br />
-                                            201: Saydé El Gemayel (Julie Rémillard-Bélanger :&nbsp; jeudi)<br />
-                                            202: Mouna Benzeghiba (<em>en remplacement de Stéphanie Vachon</em>)<br />
-                                            203: Zoé Lacharité</p>
-                                        <p><strong>Deuxième cycle</strong></p>
-                                        <p>301: Carole Arscott (Claire Arnaud : jeudi et vendredi)<br />
-                                            302: Hélène Bourdeau (Julie Rémillard-Bélanger : vendredi)</p>
-                                        <p>303 : Edith Ettieh Epse Amani Amoin (<em>en remplacement de Christine Lapierre</em>)<br />
-                                            401: Patricia Lemay<br />
-                                            402: Marie-Jacques Étienne</p>
-                                        <p><strong>Troisième cycle</strong></p>
-                                        <p>501: Mouna Ezzine<br />
-                                            502: Julie Sylvestre<br />
-                                            591-691: Nicolas Lefebvre<br />
-                                            601: Jennifer Rouette (<em>en remplacement de Catherine Jacquaz</em>)<br />
-                                            602: Sylvie Dion</p>
-                                        <p><strong>Classes de langage</strong></p>
-                                        <p>850: Geneviève Gauthier (Claire Arnaud : mercredi)<br />
-                                            851: Emilie Gobeil<br />
-                                            852: Catherine Gingras</p>
-                                        <p><strong>Spécialistes</strong></p>
-                                        <p>Anglais: Rebecca-Ann Belmonte (lundi, mardi, jeudi et vendredi)<br />
-                                            Anglais: Neven Hames (mardi)<br />
-                                            Arts plastiques : Svetlana Crudu Plamadeala (mercredi et vendredi)<br />
-                                            Éducation physique: Nicolae Boceanu<br />
-                                            Éducation physique: Redouane Bouzelata<br />
-                                            Musique: David Chartrand<br />
-                                            Orthopédagogue: Sophie Brunelle<br />
-                                            Orthopédagogue: Rébecca Dumoulin</p>
+                                        <p><strong>Maternelle</strong></p>
+                                        <p>.....</p>
+                                        <p><strong>Primaire</strong></p>
+                                        <p>......</p>
+                                        <p><strong>Secondaire</strong></p>
+                                        <p>......</p>
+                                        <p><strong></strong></p>
+                                        <p></p>
+                                        <p><strong></strong></p>
+                                        <p></p>
 
                                     </div>
                                 </div></AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-2">
-                                <AccordionTrigger>Équipe de professionnels</AccordionTrigger>
+                                <AccordionTrigger>Partenaires</AccordionTrigger>
                                 <AccordionContent>
-                                    TES: Julie Barette<br />
-                                    TES: Lise-Anne Dion<br />
-                                    TES: Anik Fournelle<br />
-                                    TES: Martine Moïse (<em>en remplacement de Maya Lajeunesse</em>)<br />
-                                    Psychologue: Natalie Lavallée (mardi et vendredi)<br />
-                                    Orthophoniste: Sarita Salameh (lundi au jeudi)<br />
-                                    Psychoéducatrice: Annie Routhier (mercredi et jeudi)<br />
-                                    Infirmière: Annie-Claude Brunet<br />
-                                    Hygiéniste dentaire: Nathalie Bélec
+                                
+                                
+                                    
+                                    Psychologue: ......<br/>
+                                
+                                
+                                    Infirmière: ......<br/>
+                                    Hygiéniste dentaire: ......<br/>
                                 </AccordionContent>
                             </AccordionItem>
                             <AccordionItem value="item-3">
-                                <AccordionTrigger>Personnel du SDG</AccordionTrigger>
+                                <AccordionTrigger>Règlement d'Ordre Intérieur</AccordionTrigger>
                                 <AccordionContent><div className="wpb_wrapper">
-                                    <p><strong>Technicienne</strong> : Léna Béland</p>
+                                    <p><strong>Technicienne</strong> : ......</p>
                                     <p><strong>Éducatrices :</strong></p>
-                                    <p>Naima Merabet</p>
-                                    <p>Houria Houat</p>
-                                    <p>Lynda Dubé</p>
-                                    <p>Carole Bellemare</p>
-                                    <p>Karine Gambarean</p>
-                                    <p>Sandy Allard</p>
-                                    <p>Ghita Rifki</p>
-                                    <p>Nadine Bou-Rgeily</p>
-                                    <p>Fatima Khazzroun</p>
-                                    <p>Mylène Benitah</p>
-                                    <p><strong>Surveillant.e.s :&nbsp;</strong></p>
-                                    <p>Roula Nakhal</p>
-                                    <p>Jean Mayar Désir</p>
-                                    <p>Denise Girard</p>
-                                    <p>Marie-Line Habra</p>
-                                    <p>Ann Gagnon</p>
-                                    <p>Alexa Le Gallais</p>
-                                    <p>Caroline Chenonceaux</p>
-                                    <p>Gabrielle Gagnon</p>
-                                    <p>Frédéric Gagnon</p>
-                                    <p>Beata Malisova</p>
+                                    <p>......</p>
                                 </div></AccordionContent>
                             </AccordionItem>
                         </Accordion>

@@ -25,19 +25,21 @@ export default function Page() {
                         <div className="vc_column-inner"><div className="wpb_wrapper">
                           <div className="wpb_text_column wpb_content_element ">
                             <div className="wpb_wrapper">
-                              <h2><strong>Coordonnées de l’école primaire Saint-Luc<br />
+                              <h2><strong>Coordonnées de l’école primaire Isoko la Source<br />
                               </strong></h2>
-                              <p>98, rue Fredmir<br />
-                                Dollard-des-Ormeaux (Qc) H9A&nbsp; 2R3<br />
-                                Téléphone : (514) 855-4212<br />
-                                <a href="mailto:direction.saint-luc@csmb.qc.ca" target="_blank" rel="noopener noreferrer">direction.saint-luc@csmb.qc.ca</a></p>
+                              <p>
+
+                                BP 000, Gisenyi<br />
+                                Téléphone : +250 783 552 105<br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +250 788 475 248<br />
+                                <a href="mailto:direction.isokolasource@gmail.com" target="_blank" rel="noopener noreferrer">direction.isokolasource@gmail.com</a></p>
                               <p>&nbsp;</p>
                               <p>Les heures d’ouverture du secrétariat de l’école sont de 7h45 à 11h30 et de 12h45 à 15h30. Vous devez utiliser la porte du service de garde en-dehors de ces heures.</p>
                               <p><strong>Signaler une absence</strong></p>
-                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>514)&nbsp;855-4212</strong> <strong>poste 1 </strong>(le répondeur téléphonique sera en fonction tous les jours) ou via <a href="https://saint-luc.ecoleouestmtl.com/wp-content/uploads/2022/02/Mozaik-portail-parents.pdf"><strong>Mozaik Parents</strong></a>. Vous devez toujours préciser le motif de l’absence.</p>
+                              <p>Lorsque votre enfant ne peut venir à l’école, vous devez informer l’école en téléphonant au (<strong>+250)&nbsp;783 552 105</strong> <strong>poste 1 </strong></p>
                               <p><strong>Service de garde</strong></p>
-                              <p>514-855-4212, poste 2</p>
-                              <p><a href="mailto:servicedegarde.saint-luc@csmb.qc.ca">servicedegarde.saint-luc@csmb.qc.ca</a></p>
+                              <p><strong>+250 788 475 248, </strong><strong>poste 2</strong></p>
+                              <p><a href="mailto:isokolasource@gmail.com">isokolasource@gmail.com</a></p>
 
                             </div>
                           </div>
@@ -59,8 +61,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="vc_row wpb_row vc_row-fluid"><div className="wpb_column vc_column_container vc_col-sm-12"><div className="vc_column-inner"><div className="wpb_wrapper"><div className="wpb_gmaps_widget wpb_content_element"><div className="wpb_wrapper"><div className="wpb_map_wraper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22375.442521318062!2d-73.82974!3d45.491348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93b6179007f0d%3A0x7579b96858791233!2s98+Rue+Fredmir%2C+Dollard-des-Ormeaux%2C+QC+H9A+2R3%2C+Canada!5e0!3m2!1sfr!2sus!4v1445438773723" width="600" height="300">
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8281.255875412124!2d29.261107513496725!3d-1.7066748353186167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd059bdf4340e9%3A0x50e594f67d6b560b!2sInternational%20School%20Isoko%20-%20La%20Source!5e0!3m2!1sen!2srw!4v1706958462043!5m2!1sen!2srw" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
               </div>
               </div>

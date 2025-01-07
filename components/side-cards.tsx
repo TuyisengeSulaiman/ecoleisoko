@@ -1,46 +1,59 @@
-import { Download } from 'lucide-react';
-import React from 'react'
+import Link from 'next/link';
+import { IdeaForm } from './idea-form';
+import { cn } from '@/lib/utils';
+
 
 function SideCards() {
-    const cards: { title: string; image: string; }[] = [
+
+    const cards: { title: string; image?: string; link: string }[] = [
         {
             title: "Suivez-nous sur facebook",
-            image: "/docs/primitives/alert-dialog",
+            link: "https://fb.me/g/p_r42f9fuhfoeLZcyp/T2C08lm7"
         },
         {
             title: "Rentrée 2023-2024",
-            image: "/docs/primitives/hover-card",
+            image: "/sc.png",
+            link: "/inscriptions-et-rentree"
 
         },
         {
             title: "Calendrier scolaire 2023-2024",
-            image: "/docs/primitives/progress",
+            image: "/calenda.png",
+            link: "/calendrier-scolaire-2"
         },
-        {
-            title: "Infoparent",
-            image: "/docs/primitives/tabs",
-
-        }
     ]
     return (
-        <div className="hidden md:block flex-grow bg-white overflow-hidden border h-fit border-gray-300">
+        <div className="hidden md:block max-w-[300px] border bg-white overflow-hidden h-fit mb-4">
             {cards.map(card => (
-                <div className="bg-white rounded-lg">
-                    <div className="bg-[#4CAF50] px-4 py-2 text-white">
-                        <h1 className="text-xl font-bold">{card.title}</h1>
+                <Link href={card.link} key={card.link}>
+                    <div className="bg-white rounded-lg w-full">
+                        <div className={cn("bg-blue-700 max-w-full px-4 py-2 text-white",!card.image ? "border-b-2 border-white" : "" )}>
+                            <h1 className="text-xl font-bold">{card.title}</h1>
+                        </div>
+                        {card.image && (
+                            <img
+                                alt="École"
+                                height="200"
+                                src={card.image}
+                                style={{
+                                    aspectRatio: "280/280",
+                                    objectFit: "cover",
+                                }}
+                                width="280"
+                                className='w-full'
+                            />
+                        )}
                     </div>
-                    <img
-                        alt="École"
-                        height="200"
-                        src="/placeholder.svg"
-                        style={{
-                            aspectRatio: "280/200",
-                            objectFit: "cover",
-                        }}
-                        width="280"
-                    />
-                </div>
+                </Link>
             ))}
+            <>
+                <div className="bg-white rounded-lg w-full">
+                    <div className="bg-blue-700 max-w-full px-4 py-2 text-white">
+                        <h1 className="text-xl font-bold">Boîte à idées</h1>
+                    </div>
+                    <IdeaForm />
+                </div>
+            </>
         </div>
     )
 }

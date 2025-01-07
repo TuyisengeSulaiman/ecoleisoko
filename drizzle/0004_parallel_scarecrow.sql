@@ -1,0 +1,1 @@
+ALTER TABLE "otp" RENAME COLUMN "name" TO "otp";

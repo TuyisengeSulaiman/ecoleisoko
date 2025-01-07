@@ -10,7 +10,7 @@ export function MotDeBienvenue() {
       <main className='flex flex-col gap-8 w-full md:w-[700px]'>
         <div className="">
           <h2 className="text-3xl font-bold tracking-tight">Mot de bienvenue</h2>
-          <h3 className="text-xl font-bold mb-5">Le milieu à Saint-Luc.</h3>
+          <h3 className="text-xl font-bold mb-5">Le milieu à Ecole Isoko la Source.</h3>
           <div className="flex gap-2">
             <img
               alt="École"
@@ -24,24 +24,18 @@ export function MotDeBienvenue() {
             />
             <div className="flex flex-col gap-5">
               <p className="font-semibold">
-                L'école Saint-Luc a été construite en 1964. Il s'agit d'une école primaire du Centre de services scolaire
+                L'école Isoko la Source a été construite en 2012
 
-                Marguerite-Bourgeoys.
+      
               </p>
-              <p>Elle est située à Dollard-des-Ormeaux, dans un secteur résidentiel.</p>
+              <p>Elle est située à Rubavu, dans un secteur résidentiel.</p>
               <p>
-                L'école Saint-Luc se trouve dans un environnement splendide, propice à l'activité physique puisque la cour
-                d'école, de grande dimension, est entourée d'un parc, d'un terrain de soccer, d'un terrain de baseball ainsi
-                que de quelques terrains de tennis qui deviennent deux patinoires l'hiver. C'est donc dans ce contexte que
+                L'école Isoko la Source se trouve dans un environnement splendide, propice à l'activité physique sur un terrain de jeu intérieure et un grand terrain de jeu à l'extérieure permettant aux élèves de developer leur capacités physiques au grand air.L'école a été bâti dans un milieu calme, reposant et favorable à l'apprentissage. Le site a été minitieusement choisi pour tout ces atouts.
+                . C'est donc dans ce contexte que
                 les élèves sont appelés à vivre des expériences diverses sur le plan sportif.
               </p>
             </div>
           </div>
-          <p className="mb-4 mt-4">
-            L'école Saint-Luc dessert une clientèle provenant majoritairement d'un milieu socio-économique favorisé.
-            L'école accueille une clientèle fortement multithématique, où 78% des familles n'ont pas le français comme
-            langue maternelle.
-          </p>
           <p className="mb-4">
             L'équipe-école, qui travaille à la réussite des élèves, est engagée, rigoureuse et soucieuse d'un
             environnement propice à leur épanouissement et d'un enseignement de qualité. Le développement des
@@ -53,6 +47,8 @@ export function MotDeBienvenue() {
             L'engagement des parents à travers le conseil d'établissement et dans diverses activités est essentiel pour
             nous et permet d'assurer un milieu de vie animé dans lequel il fait bon évoluer.
           </p>
+          <br /><br /><br />
+          <p className="text-center">Merci!</p>
         </div>
       </main>
     </div>
