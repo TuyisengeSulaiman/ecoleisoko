@@ -29,7 +29,7 @@ export async function createEnrollmentRegistration(formData: EnrollmentFormData)
       studentName: formData.student.studentName,
       studentFirstNames: formData.student.studentFirstNames,
       studentGender: formData.student.studentGender,
-      studentBirthDate: formData.student.studentBirthDate,
+      studentBirthDate: formData.student.studentBirthDate.toISOString().split('T')[0],
       studentBirthPlace: formData.student.studentBirthPlace,
       studentNationality1: formData.student.studentNationality1,
       studentNationality2: formData.student.studentNationality2,
@@ -103,7 +103,7 @@ export async function createEnrollmentRegistration(formData: EnrollmentFormData)
         registrationId,
         name: sibling.name,
         firstName: sibling.firstName,
-        birthDate: sibling.birthDate,
+        birthDate: sibling.birthDate ? sibling.birthDate.toISOString().split('T')[0] : '',
         currentClass: sibling.currentClass,
         currentSchool: sibling.currentSchool
       }));

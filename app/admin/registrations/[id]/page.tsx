@@ -6,13 +6,12 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 
 interface PageProps {
-  params: {
-    id: string;
-  };
+  params: Promise<{ id: string }>
 }
 
 export default async function RegistrationDetailPage({ params }: PageProps) {
-  const result = await getEnrollmentRegistrationById(params.id);
+  const { id } = await params
+  const result = await getEnrollmentRegistrationById(id);
 
   if (!result.success || !result.data) {
     notFound();

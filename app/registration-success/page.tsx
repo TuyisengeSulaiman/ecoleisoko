@@ -4,13 +4,14 @@ import Link from "next/link";
 import { CheckCircle, Download, Phone, Mail } from "lucide-react";
 
 interface PageProps {
-  searchParams: {
+  searchParams: Promise<{
     id?: string;
-  };
+  }>;
 }
 
-export default function RegistrationSuccessPage({ searchParams }: PageProps) {
-  const registrationId = searchParams.id;
+export default async function RegistrationSuccessPage({ searchParams }: PageProps) {
+  const { id } = await searchParams
+  const registrationId = id;
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">

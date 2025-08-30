@@ -67,7 +67,7 @@ export const parentInfoSchema = z.object({
 export const siblingSchema = z.object({
   name: z.string().min(2, "Nom requis"),
   firstName: z.string().min(2, "Prénom requis"),
-  birthDate: z.date(),
+  birthDate: z.date().optional(),
   currentClass: z.string().optional(),
   currentSchool: z.string().optional()
 });
