@@ -43,6 +43,20 @@
       "when": 1719566532712,
       "tag": "0005_solid_alice",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1756553000474,
+      "tag": "0006_brief_chamber",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1756553854231,
+      "tag": "0007_puzzling_warpath",
+      "breakpoints": true
     }
   ]
 }
