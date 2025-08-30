@@ -110,7 +110,7 @@ export default function AdminLoginPage() {
             </Button>
           </form>
           
-          <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
+          {/* <div className="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
             <h4 className="text-sm font-semibold text-yellow-800 mb-2">
               Identifiants par défaut :
             </h4>
@@ -121,7 +121,7 @@ export default function AdminLoginPage() {
             <p className="text-xs text-yellow-600 mt-2">
               ⚠️ Changez ces identifiants en production
             </p>
-          </div>
+          </div> */}
           
           <div className="mt-4 text-center">
             <a 
