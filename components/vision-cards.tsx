@@ -25,7 +25,7 @@ const VisionCards = () => {
             Icon: Network,
             perkStyle: "bg-red-100 text-red-900",
             textStyle: "text-red-700",
-            description: "Isoko - la source est une école internationale à programme Belge reconnue par le MINEDUC (Rwanda) et RESPIBEL (Belgique). L’école fut fondée en 2011 par des parents locaux et internationaux. Elle fut reprise en 2020 par des actionnaires pour assurer la pérennité de l’école. C’est donc dans un environnement international et multiculturel que l’école se développe."
+            description: "L'Ecole Internationale Isoko la source est une école à programme Belge reconnue par le MINEDUC (Rwanda) et RESPIBEL (Belgique). L’école fut fondée en 2011 par des parents locaux et internationaux. Elle fut reprise en 2020 par des actionnaires pour assurer la pérennité de l’école. C’est donc dans un environnement international et multiculturel que l’école se développe."
         },
         {
             name: "Nos Professeurs",

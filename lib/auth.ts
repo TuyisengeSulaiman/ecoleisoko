@@ -10,7 +10,7 @@ import bcrypt from "bcryptjs"
 const DEFAULT_ADMIN = {
   email: "admin@ecoleisoko.com",
   password: "EcoleIsoko2025!", // Change this in production
-  name: "Administrateur École Isoko"
+  name: "Administrateur Ecole Internationale Isoko la source"
 };
 
 // Hash the default password for secure storage

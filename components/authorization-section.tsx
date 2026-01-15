@@ -66,7 +66,7 @@ export function AuthorizationSection({ form }: AuthorizationSectionProps) {
                     />
                     <div>
                       <FormLabel className="text-base font-normal leading-relaxed">
-                        J'autorise Isoko à utiliser des images où on reconnaît mon enfant pour des supports de communication
+                        J'autorise l'Ecole Internationale Isoko la source à utiliser des images où on reconnaît mon enfant pour des supports de communication
                       </FormLabel>
                       <p className="text-sm text-gray-600 mt-1">
                         (journal de l'école, publication, reportage télévisé, site Internet, etc.)

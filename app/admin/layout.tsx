@@ -19,7 +19,7 @@ export default async function AdminLayout({
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
               <Link href="/admin" className="text-xl font-bold text-blue-600">
-                École Isoko - Admin
+                Ecole Internationale Isoko la source - Admin
               </Link>
               <nav className="flex space-x-4">
                 <Link 

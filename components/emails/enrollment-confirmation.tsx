@@ -29,11 +29,11 @@ export const EnrollmentConfirmationEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Confirmation d'inscription - École Isoko</Preview>
+      <Preview>Confirmation d'inscription - Ecole Internationale Isoko la source</Preview>
       <Body style={main}>
         <Container style={container}>
           <Section style={header}>
-            <Heading style={h1}>École Isoko</Heading>
+            <Heading style={h1}>Ecole Internationale Isoko la source</Heading>
             <Text style={subtitle}>Confirmation d'inscription 2025-2026</Text>
           </Section>
 
@@ -96,7 +96,7 @@ export const EnrollmentConfirmationEmail = ({
             <Text style={signature}>
               Cordialement,<br />
               L'équipe administrative<br />
-              École Isoko
+              Ecole Internationale Isoko la source
             </Text>
           </Section>
 

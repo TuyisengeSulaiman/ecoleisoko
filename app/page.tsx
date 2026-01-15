@@ -12,12 +12,12 @@ export default function Home() {
       <section className="space-y-6">
         <h2 className="text-left text-yellow-700 font-Montserrat font-semibold text-lg">
           <a href="http://Isoko la Source.ecoleouestmtl.com/mot-de-bienvenue/">
-            Bienvenue à l'école internationale Isoko - La source
+            Bienvenue à l'Ecole Internationale Isoko la source
           </a>
         </h2>
         <div className="prose prose-sm">
           <p>
-            L'École Isoko - La Source est un établissement éducatif dynamique et innovant, dédié à offrir une éducation de
+            L'Ecole Internationale Isoko la source est un établissement éducatif dynamique et innovant, dédié à offrir une éducation de
             qualité, adaptée aux besoins de chaque élève. Située dans un environnement chaleureux et accueillant, notre
             école est un véritable lieu de découverte, d'apprentissage, et d'épanouissement personnel.
           </p>
@@ -90,7 +90,7 @@ export default function Home() {
         <h2 className="text-2xl font-bold text-green-700">Plan Santé et Bien-être</h2>
         <div className="prose prose-sm">
           <p>
-            À Isoko - La Source, nous reconnaissons que la santé et le bien-être des enfants sont essentiels pour leur
+            À l'Ecole Internationale Isoko la source, nous reconnaissons que la santé et le bien-être des enfants sont essentiels pour leur
             réussite académique et personnelle.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

@@ -188,7 +188,7 @@ export function EnrollmentForm({ className }: EnrollmentFormProps) {
           Fiche d'inscription 2025-2026
         </h1>
         <p className="text-center text-gray-600 mb-6">
-          École Isoko - Formulaire d'inscription
+          Ecole Internationale Isoko la source - Formulaire d'inscription
         </p>
         
         {/* Progress indicator */}

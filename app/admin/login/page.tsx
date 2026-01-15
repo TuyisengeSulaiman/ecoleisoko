@@ -54,7 +54,7 @@ export default function AdminLoginPage() {
             <School className="h-8 w-8 text-white" />
           </div>
           <CardTitle className="text-2xl font-bold text-gray-900">
-            École Isoko
+            Ecole Internationale Isoko la source
           </CardTitle>
           <p className="text-gray-600">Connexion Administrateur</p>
         </CardHeader>

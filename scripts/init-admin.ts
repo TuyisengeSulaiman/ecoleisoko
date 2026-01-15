@@ -9,7 +9,7 @@ import bcrypt from 'bcryptjs';
 const DEFAULT_ADMIN = {
   id: "default-admin",
   email: "admin@ecoleisoko.com",
-  name: "Administrateur École Isoko",
+  name: "Administrateur Ecole Internationale Isoko la source",
   password: "EcoleIsoko2025!",
   role: "admin" as const
 };

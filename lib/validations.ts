@@ -137,7 +137,7 @@ export type HealthInfo = z.infer<typeof healthInfoSchema>;
 export type AuthorizationInfo = z.infer<typeof authorizationsSchema>;
 export type DocumentInfo = z.infer<typeof documentSchema>;
 
-// Grade options for École Isoko
+// Grade options for Ecole Internationale Isoko la source
 export const gradeOptions = [
   { value: "pre_maternelle", label: "Prématernelle - PPS" },
   { value: "m1_ps", label: "M 1 – PS (3 ans)" },

@@ -54,10 +54,10 @@ export async function sendEnrollmentConfirmationEmail(
     });
 
     const { data, error } = await resend.emails.send({
-      from: 'École Isoko <noreply@ecoleisooko.com>',
+      from: 'Ecole Internationale Isoko la source <noreply@ecoleisooko.com>',
       to: [parentEmail],
       cc: ['isokolasource@gmail.com'], // Copy school administration
-      subject: `Confirmation d'inscription - ${studentFullName} - École Isoko`,
+      subject: `Confirmation d'inscription - ${studentFullName} - Ecole Internationale Isoko la source`,
       react: EnrollmentConfirmationEmail({
         studentName: studentFullName,
         registrationId,
@@ -96,7 +96,7 @@ export async function sendAdminNotificationEmail(
     });
 
     const { data, error } = await resend.emails.send({
-      from: 'École Isoko <noreply@ecoleisooko.com>',
+      from: 'Ecole Internationale Isoko la source <noreply@ecoleisooko.com>',
       to: ['isokolasource@gmail.com'],
       subject: `Nouvelle inscription reçue - ${studentFullName}`,
       html: `
@@ -134,7 +134,7 @@ export async function sendAdminNotificationEmail(
           </p>
           
           <p style="color: #666; font-size: 14px; margin-top: 30px;">
-            Cette notification a été envoyée automatiquement depuis le système d'inscription de l'École Isoko.
+            Cette notification a été envoyée automatiquement depuis le système d'inscription de l'Ecole Internationale Isoko la source.
           </p>
         </div>
       `

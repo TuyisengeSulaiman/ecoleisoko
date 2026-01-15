@@ -12,7 +12,7 @@ export default function Page() {
                         <em>prévention-promotion dont le but est de permettre aux élèves de grandir, d’apprendre et de </em><br />
                         <em>s’épanouir dans un milieu scolaire sécuritaire, positif et bienveillant.</em> &nbsp;»</p>
                     <p>Vous pouvez consulter le Plan santé et bien-être de notre école au lien suivant :</p>
-                    <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/10/Plan-sante-et-bien-etre-CSSMB_SAINT_LUC.pdf">Plan Santé et Bien-être – École Isoko la Source</a></p>
+                    <p><a className="text-blue-500 hover:underline" href="https://Isoko la Source.ecoleouestmtl.com/wp-content/uploads/2023/10/Plan-sante-et-bien-etre-CSSMB_SAINT_LUC.pdf">Plan Santé et Bien-être – Ecole Internationale Isoko la source</a></p>
 
                 </article>
             </main>

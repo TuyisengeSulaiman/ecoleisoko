@@ -13,7 +13,7 @@ import { Toaster } from '@/components/ui/sonner'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'École Isoko',
+  title: 'Ecole Internationale Isoko la source',
   description: "Participe À Une ÉCOLE Particulière !",
   icons: {
     icon: [
@@ -52,7 +52,7 @@ export default function RootLayout({
               </MaxWidthWrapper>
               <footer key="1" className="py-6 text-sm border-t border-gray-200">
         <div className="container flex flex-col items-center gap-4">
-          <p>© École ISOKO - La source, {new Date().getFullYear()}</p>
+          <p>© Ecole Internationale Isoko la source, {new Date().getFullYear()}</p>
         </div>
       </footer>
               <Toaster position='top-center' />
