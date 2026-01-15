@@ -18,14 +18,18 @@ const VisionCards = () => {
             perkStyle: "bg-blue-100 text-blue-900",
             textStyle: "text-blue-700",
             Icon: Eye,
-            description: "L’école Isoko – La source vise l’épanouissement de chaque élève à travers la libre expression de sa pensée et la confiance en soi, dans le respect de soi et des autres, l’ouverture d’esprit au monde et la créativité, tout en gardant un esprit critique et le sens des responsabilités, notamment citoyenne."
+            description: "L'Ecole Internationale Isoko la source vise l’épanouissement de chaque élève à travers la libre expression de sa pensée et la confiance en soi, dans le respect de soi et des autres, l’ouverture d’esprit au monde et la créativité, tout en gardant un esprit critique et le sens des responsabilités, notamment citoyenne."
         },
         {
             name: "Nos Racines",
             Icon: Network,
             perkStyle: "bg-red-100 text-red-900",
             textStyle: "text-red-700",
-            description: "L'Ecole Internationale Isoko la source est une école à programme Belge reconnue par le MINEDUC (Rwanda) et RESPIBEL (Belgique). L’école fut fondée en 2011 par des parents locaux et internationaux. Elle fut reprise en 2020 par des actionnaires pour assurer la pérennité de l’école. C’est donc dans un environnement international et multiculturel que l’école se développe."
+            description: `Isoko – la source est une école internationale à programme français reconnue par le MINEDUC (Rwanda).
+
+L’école est tenue par une société privée, Léo Taurus Univers LTD
+
+C’est donc dans un environnement international et multiculturel que l’école se développe.`
         },
         {
             name: "Nos Professeurs",

@@ -171,7 +171,7 @@ export function Navbar() {
             </MaxWidthWrapper>
             <MaxWidthWrapper className="w-full bg-blue-100 text-blue-500 p-[0.5px] font-semibold">
                 <div>
-                    École ISOKO - La source
+                    Ecole Internationale Isoko la source
                 </div>
             </MaxWidthWrapper>
         </div>
